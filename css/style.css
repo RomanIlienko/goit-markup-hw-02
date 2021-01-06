@@ -3,6 +3,14 @@ body {
   color: #757575;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .page-header {
   background-color: #fff;
 }
@@ -15,12 +23,12 @@ body {
   color: #212121;
 }
 
-ul {
-  list-style: none;
+.site-nav-list a {
+  color: #212121;
 }
 
-a {
-  text-decoration: none;
+.site-nav-list a:hover {
+  color: #2196f3;
 }
 
 .hero-section {
@@ -55,4 +63,20 @@ a {
 
 .team-section {
   background-color: #f5f4fa;
+}
+
+.advantage-titles {
+  color: #212121;
+}
+
+.what-we-do-title {
+  color: #212121;
+}
+
+.team-title {
+  color: #212121;
+}
+
+.developer-names {
+  color: #212121;
 }
