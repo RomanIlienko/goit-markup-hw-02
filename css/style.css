@@ -31,6 +31,22 @@ a {
   color: #2196f3;
 }
 
+.site-nav-list a:focus {
+  color: #2196f3;
+}
+
+.site-nav-contacts a {
+  color: #212121;
+}
+
+.site-nav-contacts a:hover {
+  color: #2196f3;
+}
+
+.site-nav-contacts a:focus {
+  color: #2196f3;
+}
+
 .hero-section {
   background-color: #2f303a;
   color: #fff;
