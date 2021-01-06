@@ -11,6 +11,8 @@ a {
   text-decoration: none;
 }
 
+/* header */
+
 .page-header {
   background-color: #fff;
 }
@@ -48,7 +50,7 @@ a {
 .site-nav-contacts a:focus {
   color: #2196f3;
 }
-
+/* hero */
 .hero-section {
   background-color: #2f303a;
   color: #fff;
@@ -57,26 +59,6 @@ a {
 .button {
   background-color: #2196f3;
   color: #fff;
-}
-
-.footer {
-  background-color: #2f303a;
-}
-
-.footer-logo {
-  color: #2196f3;
-}
-
-.footer-studio-color {
-  color: #fff;
-}
-
-.footer-adress {
-  color: #fff;
-}
-
-.footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .team-section {
@@ -97,4 +79,30 @@ a {
 
 .developer-names {
   color: #212121;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: #fff;
+}
+
+.footer-web-color {
+  color: #2196f3;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #2196f3;
+}
+.footer-adress {
+  color: #fff;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
