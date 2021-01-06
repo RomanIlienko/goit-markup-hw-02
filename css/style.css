@@ -16,21 +16,23 @@ a {
 }
 
 .header-logo {
+  color: #212121;
+}
+
+.header-logo:hover,
+.header-logo:focus {
   color: #2196f3;
 }
 
-.header-studio-color {
-  color: #212121;
+.header-web-color {
+  color: #2196f3;
 }
 
 .site-nav-list a {
   color: #212121;
 }
 
-.site-nav-list a:hover {
-  color: #2196f3;
-}
-
+.site-nav-list a:hover,
 .site-nav-list a:focus {
   color: #2196f3;
 }
