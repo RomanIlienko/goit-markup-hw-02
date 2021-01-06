@@ -65,6 +65,11 @@ a {
   background-color: #f5f4fa;
 }
 
+.advantage-section,
+.what-we-do-section {
+  background-color: #ffffff;
+}
+
 .advantage-titles {
   color: #212121;
 }
