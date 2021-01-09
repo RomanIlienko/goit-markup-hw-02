@@ -38,12 +38,12 @@ a {
   color: var(--accent-color);
 }
 
-.site-nav-list a {
+.site-nav .link {
   color: var(--title-text-color);
 }
 
-.site-nav-list a:hover,
-.site-nav-list a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
