@@ -110,7 +110,7 @@ a {
 
 .footer-logo:hover,
 .footer-logo:focus {
-  color: #7e909e;
+  color: var(--accent-color);
 }
 .footer-adress {
   color: var(--second-txt-bcg-color);
