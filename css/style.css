@@ -70,7 +70,7 @@ a {
   color: var(--second-txt-bcg-color);
 }
 
-.button {
+.button-order {
   background-color: var(--accent-color);
   color: var(--second-txt-bcg-color);
 }
