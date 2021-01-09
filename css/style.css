@@ -1,6 +1,14 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-txt-bcg-color: #ffffff;
+  --hero-footer-bcg-clr: #2f303a;
+}
+
 body {
   background-color: #e5e5e5;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 ul {
@@ -14,51 +22,51 @@ a {
 /* header */
 
 .page-header {
-  background-color: #fff;
+  background-color: var(--second-txt-bcg-color);
 }
 
 .header-logo {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .header-logo:hover,
 .header-logo:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-web-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav-list a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav-list a:hover,
 .site-nav-list a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav-contacts a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav-contacts a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav-contacts a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* hero */
 .hero-section {
-  background-color: #2f303a;
-  color: #fff;
+  background-color: var(--hero-footer-bcg-clr);
+  color: var(--second-txt-bcg-color);
 }
 
 .button {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--accent-color);
+  color: var(--second-txt-bcg-color);
 }
 
 .team-section {
@@ -67,45 +75,45 @@ a {
 
 .advantage-section,
 .what-we-do-section {
-  background-color: #ffffff;
+  background-color: var(--second-txt-bcg-color);
 }
 
 .advantage-titles {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .what-we-do-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .team-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .developer-names {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--hero-footer-bcg-clr);
 }
 
 .footer-logo {
-  color: #fff;
+  color: var(--second-txt-bcg-color);
 }
 
 .footer-web-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-logo:hover,
 .footer-logo:focus {
-  color: #2196f3;
+  color: #7e909e;
 }
 .footer-adress {
-  color: #fff;
+  color: var(--second-txt-bcg-color);
 }
 
 .footer-contacts {
