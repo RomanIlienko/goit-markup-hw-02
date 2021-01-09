@@ -5,14 +5,22 @@
   --accent-color: #2196f3;
   --second-txt-bcg-color: #ffffff;
   --hero-footer-bcg-clr: #2f303a;
+
   /* portfolio page */
+  --button-bcg-clr: #f5f4fa;
+  --button-active-bcg-clr: #2196f3;
+  --bcg-clr: #ffffff;
 }
 
 body {
   background-color: #e5e5e5;
   color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
 }
 
+.footer-adress {
+  font-style: normal;
+}
 ul {
   list-style: none;
 }
@@ -40,6 +48,12 @@ a {
   color: var(--accent-color);
 }
 
+.site-nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -51,6 +65,12 @@ a {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.site-nav-contacts {
+  margin-left: 1078px;
+  padding: 0;
+  display: flex;
 }
 
 .site-nav-contacts a {
@@ -68,11 +88,33 @@ a {
 .hero-section {
   background-color: var(--hero-footer-bcg-clr);
   color: var(--second-txt-bcg-color);
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 
 .button-order {
   background-color: var(--accent-color);
   color: var(--second-txt-bcg-color);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.hero-section-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .team-section {
@@ -124,4 +166,38 @@ a {
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* portolio */
+.button-menu {
+  background-color: var(--button-bcg-clr);
+  color: var(--title-text-color);
+  border-radius: 4px;
+}
+
+.button-menu:hover,
+.button-menu:focus {
+  background-color: var(--button-active-bcg-clr);
+  color: var(--second-txt-bcg-color);
+}
+
+.portfolio-section {
+  background-color: var(--bcg-clr);
+}
+
+.portfolio-titles {
+  color: var(--title-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
