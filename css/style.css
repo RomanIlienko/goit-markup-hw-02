@@ -46,6 +46,10 @@ a {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -59,6 +63,9 @@ a {
 
 .site-nav-contacts a {
   color: var(--main-text-color);
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
 }
 
 .site-nav-contacts a:focus,
@@ -113,15 +120,7 @@ a {
   text-align: left;
 }
 
-.what-we-do-title {
-  color: var(--title-text-color);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.166;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
+.what-we-do-title,
 .team-title {
   color: var(--title-text-color);
   font-size: 36px;
@@ -185,7 +184,7 @@ a {
   color: var(--accent-color);
 }
 
-/* portolio */
+/* portfolio */
 
 .button-menu {
   background-color: var(--button-bcg-clr);
